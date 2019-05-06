@@ -7,4 +7,6 @@ const userSchema = new Schema({
     createdAT : { type: Date,default:Date.now()}
 })
 
+
+
 module.exports=mongoose.model('wallet',userSchema)
